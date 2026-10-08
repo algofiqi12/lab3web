@@ -137,6 +137,8 @@ Contoh:
 
 (Pengecualian: deklarasi dengan `!important` akan mengalahkan inline.)
 
+![Hasil pengujian prioritas CSS](screenshots/08-prioritas.png)
+
 ### 4. ID dan Class pada satu elemen
 
 **Yang tampil adalah deklarasi ID selector**, karena specificity ID lebih tinggi daripada class, tidak peduli mana yang ditulis lebih dulu atau lebih akhir. Urutan specificity: inline > ID > class > elemen.
@@ -158,7 +160,7 @@ Contoh:
 
 Hasilnya, teks berwarna **merah** karena `#paragraf-1` (ID) lebih kuat daripada `.textparagraf` (class). Properti yang tidak bentrok tetap digabungkan, misalnya jika `.textparagraf` juga mengatur `font-size`, ukuran tersebut tetap berlaku.
 
-![Hasil pengujian specificity](screenshots/08-specificity.png)
+![Hasil pengujian specificity](screenshots/09-specificity.png)
 
 ---
 
