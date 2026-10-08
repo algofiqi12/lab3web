@@ -69,7 +69,7 @@ Pada `style_eksternal.css` ditambahkan:
 
 Memvalidasi `style_eksternal.css` melalui <https://jigsaw.w3.org/css-validator/>.
 
-![Hasil validasi CSS](screenshots/06-validasi.png)
+![Hasil validasi CSS](screenshots/image.png)
 
 ---
 
